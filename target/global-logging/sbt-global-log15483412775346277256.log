@@ -1,0 +1,89 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.2 (Oracle Corporation Java 14.0.2)
+[debug]       Load.loadUnit: plugins took 2981.422101ms
+[debug]       Load.loadUnit: defsScala took 1.3497ms
+[debug] [Loading] Scanning directory C:\Users\dfdem\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\dfdem\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 457.4302 ms
+[debug]           Load.resolveProject(global-plugins) took 605.2756ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\dfdem\.sbt\1.0\plugins, plugins: List(<none>))) took 2042.805499ms
+[debug] [Loading] Done in C:\Users\dfdem\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 2504.401799ms
+[debug]       Load.loadUnit: cleanEvalClasses took 41.5513ms
+[debug]     Load.loadUnit(file:/C:/Users/dfdem/.sbt/1.0/plugins/, ...) took 5708.810899ms
+[debug]   Load.apply: load took 9451.3482ms
+[debug]   Load.apply: resolveProjects took 66.330801ms
+[debug]   Load.apply: finalTransforms took 909.8296ms
+[debug]   Load.apply: config.delegates took 324.7239ms
+[debug]   Load.apply: Def.make(settings)... took 19462.222199ms
+[debug]   Load.apply: structureIndex took 1890.1535ms
+[debug]   Load.apply: mkStreams took 10.843199ms
+[info] loading global plugins from C:\Users\dfdem\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 66576.8444ms
+[debug]           Load.loadUnit: plugins took 420.497199ms
+[debug]           Load.loadUnit: defsScala took 0.029401ms
+[debug] [Loading] Scanning directory C:\Users\dfdem\IdeaProjects\tlc-scala-101\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\dfdem\IdeaProjects\tlc-scala-101\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 41.9928 ms
+[debug]               Load.resolveProject(tlc-scala-101-build) took 30.361899ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id tlc-scala-101-build, base: C:\Users\dfdem\IdeaProjects\tlc-scala-101\project, plugins: List(<none>))) took 75.877599ms
+[debug] [Loading] Done in C:\Users\dfdem\IdeaProjects\tlc-scala-101\project, returning: (tlc-scala-101-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 102.1452ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.0621ms
+[debug]         Load.loadUnit(file:/C:/Users/dfdem/IdeaProjects/tlc-scala-101/project/, ...) took 527.923601ms
+[debug]       Load.apply: load took 546.075399ms
+[debug]       Load.apply: resolveProjects took 0.4397ms
+[debug]       Load.apply: finalTransforms took 174.6905ms
+[debug]       Load.apply: config.delegates took 5.841199ms
+[debug]       Load.apply: Def.make(settings)... took 1974.0222ms
+[debug]       Load.apply: structureIndex took 484.151001ms
+[debug]       Load.apply: mkStreams took 0.010899ms
+[info] loading project definition from C:\Users\dfdem\IdeaProjects\tlc-scala-101\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 69484.282101ms
+[debug]     Load.loadUnit: defsScala took 0.0135ms
+[debug] [Loading] Scanning directory C:\Users\dfdem\IdeaProjects\tlc-scala-101
+[debug]       Load.loadUnit: mkEval took 124.1536ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\dfdem\IdeaProjects\tlc-scala-101, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 74.6569 ms
+[info] loading settings for project tlc-scala-101 from build.sbt ...
+[debug]         Load.resolveProject(tlc-scala-101) took 40.7278ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id tlc-scala-101, base: C:\Users\dfdem\IdeaProjects\tlc-scala-101, plugins: List(<none>))) took 117.9085ms
+[debug] [Loading] Done in C:\Users\dfdem\IdeaProjects\tlc-scala-101, returning: (tlc-scala-101)
+[debug]     Load.loadUnit: loadedProjectsRaw took 27509.7477ms
+[debug]     Load.loadUnit: cleanEvalClasses took 137.682ms
+[debug]   Load.loadUnit(file:/C:/Users/dfdem/IdeaProjects/tlc-scala-101/, ...) took 97147.2388ms
+[debug] Load.apply: load took 97159.2692ms
+[debug] Load.apply: resolveProjects took 0.475ms
+[debug] Load.apply: finalTransforms took 45.4665ms
+[debug] Load.apply: config.delegates took 1.4435ms
+[debug] Load.apply: Def.make(settings)... took 642.3104ms
+[debug] Load.apply: structureIndex took 115.6732ms
+[debug] Load.apply: mkStreams took 0.0374ms
+[info] set current project to tlc-scala-101 (in build file:/C:/Users/dfdem/IdeaProjects/tlc-scala-101/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-264eeb6eb82cfc74c8a8
+[debug] Forcing garbage collection...

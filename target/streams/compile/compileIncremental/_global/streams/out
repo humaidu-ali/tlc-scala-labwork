@@ -1,0 +1,47 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 4 products, 3 sources, 1 libraries
+[debug] current source = Set(${BASE}/src/main/scala/Hello.scala, ${BASE}/src/main/scala/Main.scala, ${BASE}/src/main/scala/Trade.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/Main.scala), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/Main.scala)
+[debug] Invalidated products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(Main)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(Main)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/Main.scala)
+[debug] Initial set of included nodes: Main
+[debug] compilation cycle 1
+[info] compiling 1 Scala source to C:\Users\dfdem\IdeaProjects\tlc-scala-101\target\scala-2.13\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.4.2:compile for Scala 2.13.3
+[debug] [zinc] Running cached compiler 5dae91aa for Scala compiler version 2.13.3
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Users\dfdem\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[debug] 	-classpath
+[debug] 	C:\Users\dfdem\IdeaProjects\tlc-scala-101\target\scala-2.13\classes
+[debug] Invalidating (transitively) by inheritance from Main...
+[debug] Initial set of included nodes: Main
+[debug] Invalidated by transitive inheritance dependency: Set(Main)
+[debug] Change NamesChange(Main,ModifiedNames(changes = UsedName(eq,[Default]), UsedName(clone,[Default]), UsedName(wait,[Default]), UsedName(Main,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName(hashCode,[Default]), UsedName(main,[Default]), UsedName(notify,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(getClass,[Default]), UsedName(==,[Default]), UsedName(##,[Default]), UsedName(asInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName(synchronized,[Default]), UsedName(ne,[Default]), UsedName(toString,[Default]), UsedName(Main;init;,[Default]))) invalidates 1 classes due to The Main has the following regular definitions changed:
+[debug] 	UsedName(eq,[Default]), UsedName(clone,[Default]), UsedName(wait,[Default]), UsedName(Main,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName(hashCode,[Default]), UsedName(main,[Default]), UsedName(notify,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(getClass,[Default]), UsedName(==,[Default]), UsedName(##,[Default]), UsedName(asInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName(synchronized,[Default]), UsedName(ne,[Default]), UsedName(toString,[Default]), UsedName(Main;init;,[Default]).
+[debug]   > by transitive inheritance: Set(Main)
+[debug]   > 
+[debug]   > 
+[debug]         
+[debug] New invalidations:
+[debug] Initial set of included nodes: 
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] Final step, transitive dependencies:
+[debug] 	Set()
+[debug] No classes were invalidated.
+[debug] Scala compilation took 2.8879722 s
+[info] done compiling
